@@ -106,7 +106,7 @@ A common mistake users make when they type in an URL is to put spaces between wo
 
 Imagine you have an array of numbers. Write an algorithm to remove all numbers less than 5 from the array. DO NOT use Array's built-in .filter() method here; write the algorithm from scratch.
 
-> - Input: `[3, 5, 15, 15, 49, 8, 2, -5]
+> - Input: `[3, 5, 15, 15, 49, 8, 2, -5]`
 > - Output: `[5, 15, 15, 49, 8] `
 
 > `/Assignment/filter.js`
@@ -120,7 +120,11 @@ You are given an array containing positive and negative integers. Write an algor
 - Input: `[4, 6, -3, 5, -2, 1]`
 - Output: `12`
 
-8. Merge arrays
+> `/Assignment/max-sum.js`
+
+> O(n)
+
+## 8. Merge arrays
 
 Imagine you have 2 arrays which have already been sorted. Write an algorithm to merge the 2 arrays into a single array, which should also be sorted.
 
