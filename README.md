@@ -106,12 +106,19 @@ A common mistake users make when they type in an URL is to put spaces between wo
 
 Imagine you have an array of numbers. Write an algorithm to remove all numbers less than 5 from the array. DO NOT use Array's built-in .filter() method here; write the algorithm from scratch.
 
+> - Input: `[3, 5, 15, 15, 49, 8, 2, -5]
+> - Output: `[5, 15, 15, 49, 8] `
+
+> `/Assignment/filter.js`
+
+> O(n)
+
 ## 7. Max sum in the array
 
 You are given an array containing positive and negative integers. Write an algorithm which will find the largest sum in a continuous sequence.
 
-    Input: [4, 6, -3, 5, -2, 1]
-    Output: 12
+- Input: `[4, 6, -3, 5, -2, 1]`
+- Output: `12`
 
 8. Merge arrays
 
