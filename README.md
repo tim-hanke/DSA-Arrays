@@ -142,6 +142,10 @@ Write an algorithm that deletes given characters from a string. For example, giv
 - Input: `'Battle of the Vowels: Hawaii vs. Grozny'`, `'aeiou'`
 - Output: `'Bttl f th Vwls: Hw vs. Grzny'`
 
+> `/Assignment/remove-characters.js`
+
+> O(n^2) It's horribly inefficient, and definitely needs to be optimized.
+
 ## 10. Products
 
 Given an array of numbers, write an algorithm that outputs an array where each index is the product of all the numbers in the input array except for the number at each current index. See the following example input and output.
