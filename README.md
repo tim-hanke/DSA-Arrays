@@ -133,48 +133,52 @@ Imagine you have 2 arrays which have already been sorted. Write an algorithm to 
 
 > O(n)
 
-9. Remove characters
+## 9. Remove characters
 
 Write an algorithm that deletes given characters from a string. For example, given a string of "Battle of the Vowels: Hawaii vs. Grozny" and the characters to be removed are "aeiou", the algorithm should transform the original string to "Bttl f th Vwls: Hw vs. Grzny". Do not use Javascript's filter, split, or join methods.
 
-    Input:'Battle of the Vowels: Hawaii vs. Grozny', 'aeiou'
-    Output: 'Bttl f th Vwls: Hw vs. Grzny'
+- Input: `'Battle of the Vowels: Hawaii vs. Grozny'`, `'aeiou'`
+- Output: `'Bttl f th Vwls: Hw vs. Grzny'`
 
-10. Products
+## 10. Products
 
 Given an array of numbers, write an algorithm that outputs an array where each index is the product of all the numbers in the input array except for the number at each current index. See the following example input and output.
 
-    Input:[1, 3, 9, 4]
-    Output:[108, 36, 12, 27]
+- Input: `[1, 3, 9, 4]`
+- Output: `[108, 36, 12, 27]`
 
-11. 2D array
+## 11. 2D array
 
 Write an algorithm which searches through a 2D array, and whenever it finds a 0 should set the entire row and column to 0.
 
-    Input:
+- Input:
 
-    [[1,0,1,1,0],
-    [0,1,1,1,0],
-    [1,1,1,1,1],
-    [1,0,1,1,1],
-    [1,1,1,1,1]];
+```
+[[1,0,1,1,0],
+[0,1,1,1,0],
+[1,1,1,1,1],
+[1,0,1,1,1],
+[1,1,1,1,1]];
+```
 
-    Output:
+- Output:
 
-    [[0,0,0,0,0],
-    [0,0,0,0,0],
-    [0,0,1,1,0],
-    [0,0,0,0,0],
-    [0,0,1,1,0]];
+```
+[[0,0,0,0,0],
+[0,0,0,0,0],
+[0,0,1,1,0],
+[0,0,0,0,0],
+[0,0,1,1,0]];
+```
 
-12. String rotation
+## 12. String rotation
 
 Given 2 strings, str1 and str2, write a program that checks if str2 is a rotation of str1.
 
-    Input: amazon, azonma
+- Input: `amazon`, `azonma`
 
-    Output: False
+- Output: `False`
 
-    Input: amazon, azonam
+- Input: `amazon`, `azonam`
 
-    Output: true
+- Output: `true`
