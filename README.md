@@ -181,6 +181,10 @@ Write an algorithm which searches through a 2D array, and whenever it finds a 0 
 [0,0,1,1,0]];
 ```
 
+> `/Assignment/two-d-array.js`
+
+> O(n^3) I think. Because I'm looping consecutively over width and height inside a width loop inside a height loop.
+
 ## 12. String rotation
 
 Given 2 strings, str1 and str2, write a program that checks if str2 is a rotation of str1.
